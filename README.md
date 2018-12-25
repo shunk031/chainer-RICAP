@@ -2,6 +2,8 @@
 
 This repository contains a [Chainer](https://chainer.org/) implementation for the paper: [RICAP: Random Image Cropping and Patching Data Augmentation for Deep CNNs](http://proceedings.mlr.press/v95/takahashi18a.html) (ACML2018, Ryo Takahashi, Takashi Matsubara, Kuniaki Uehara).
 
+![Figure 2](https://raw.githubusercontent.com/shunk031/chainer-RICAP/master/.github/figure2.png)
+
 ## Requirements
 - Chainer 5.0+
 - Cupy 5.0+
