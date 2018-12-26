@@ -15,7 +15,7 @@ class RICAPClassifier(L.Classifier):
                  lossfun=softmax_cross_entropy.softmax_cross_entropy,
                  accfun=accuracy.accuracy,
                  label_key=-1,
-                 beta=0.2):
+                 beta=0.3):
         super(RICAPClassifier, self).__init__(
             predictor, lossfun=lossfun,
             accfun=accfun, label_key=label_key)
